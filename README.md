@@ -11,7 +11,7 @@ This role can be used to do a `git pull` and `git push` within a playbook. Below
 | `git_branch` | master | Branch in the repository |
 | `git_msg` | 'update files with ansible' | Git commit message |
 | `git_remove_local` | false | remove local copy of repository |
-
+| `git_clone_path` | temp | Local path to deploy clone of repository |
 ## Example
 ```
 ---

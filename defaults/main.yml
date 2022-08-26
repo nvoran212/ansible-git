@@ -1,8 +1,9 @@
 ---
 git_url: ''
-git_key: ''
-git_branch: 'master'
+git_key: "{{ lookup('file','~/.ssh/id_rsa') }}"
+git_email: 'its-mwt@fsu.edu'
+git_username: 'mwuser'
+git_branch: master
 git_msg: 'update files with ansible'
-git_remove_local: false
-git_username: ansible_git
-git_email: ansible_git@ansible.com 
+git_remove_local: true
+git_clone_path: "temp"
